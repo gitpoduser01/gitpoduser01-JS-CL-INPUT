@@ -8,6 +8,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.webdriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
@@ -18,7 +19,7 @@ public class SeleniumTest {
     @Before
     public void setUp() {
         // Set up ChromeDriver path
-        System.setProperty("webdriver.chrome.driver", "driver/chromedriver");//linux_64
+     //   System.setProperty("webdriver.chrome.driver", "driver/chromedriver");//linux_64
 
         // Get file
         File file = new File("HelloUser.html");
@@ -31,6 +32,10 @@ public class SeleniumTest {
 
         // Open the HTML file
         webDriver.get(path);
+      
+
+webDriver = webdriver.Chrome()
+driver.get("https://www.google.com/")
 
 
 
