@@ -8,7 +8,6 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.webdriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
@@ -32,13 +31,6 @@ public class SeleniumTest {
 
         // Open the HTML file
         webDriver.get(path);
-      
-
-webDriver = webdriver.Chrome()
-driver.get("https://www.google.com/")
-
-
-
 
     }
     @Test
